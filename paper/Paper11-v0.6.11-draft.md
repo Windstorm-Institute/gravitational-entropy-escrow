@@ -1,0 +1,368 @@
+**Gravitational Entropy Escrow:**
+
+**An Interpretive Synthesis of Thermodynamic Approaches to Gravity**
+
+Grant L. Whitmer III
+
+*Windstorm Institute, Fort Ann, New York*\
+Draft v0.6.11 --- May 2026
+
+**Abstract**
+
+We propose a physical reframing under which gravity and entropy are revealed as the same phenomenon viewed through different vocabularies. Gravitational binding energy, in this picture, is entropy held in escrow against the local Unruh temperature: bound mass-pairs hold entropy off the books, and the universe attracts because the books want to balance. Escape velocity is the threshold at which sufficient compensating entropy can be produced to redeem the escrow. The equivalence principle is the statement that escrow gradients are observer-relative the same way entropy is observer-relative, with tidal forces emerging as the irreducible piece that survives transformation to a free-fall frame. Black holes are the limiting case in which escrow becomes infinite and is forced to manifest directly as horizon area, recovering Bekenstein-Hawking entropy as a structural consequence rather than a separate result. The mathematical machinery underlying the reframing is due to Bekenstein, Hawking, Unruh, Jacobson, Padmanabhan, Verlinde, and van Putten; we claim no priority on individual derivations. What is offered here is the picture that connects them: universal attractiveness, the impossibility of shielding, the second-law character of gravitational binding, the area-law of black hole entropy, and the recovery of Newton\'s law and of the order of magnitude and universality of the empirical Milgrom acceleration scale a₀ all follow from one principle. We sketch a covariant extension and engage honestly with the empirical literature, including the constraints on cosmological evolution of a₀ established by Milgrom (2017) and the radial-profile pattern of cluster mass discrepancies, both of which any framework in this family must accommodate.
+
+1\. Motivation: Two Stubborn Facts
+
+Two empirical observations about gravity are sufficiently familiar that physicists rarely pause on them, and sufficiently strange that they should not be left unexamined.
+
+First: a mass cannot escape the gravitational pull of another mass without expending entropy. The escape energy can in principle be packaged in any form --- kinetic, electromagnetic, mechanical --- but in every realized escape, the budget is paid by an entropy-increasing process external to the bound pair. A rocket vents hot exhaust. A binary system radiates gravitational waves. A photon climbs out of a potential well at the cost of redshift and the heating of its eventual absorber. The energy ledger closes by appeal to the energy ledger of the rest of the universe; the entropy ledger of the rest of the universe is what actually pays.
+
+Second: black holes are simultaneously the throne of entropy and the throne of gravity. The Bekenstein bound is saturated at the event horizon. The gravitational field is maximal at the event horizon. The two extrema coincide. If gravity and entropy were unrelated phenomena, this coincidence would be staggering. Standard physics has known since the 1970s that they are not unrelated --- black hole entropy is purely geometric, S = k_B A / 4ℓ_p² --- but the field has not converged on an interpretive framework that makes the coincidence feel inevitable rather than miraculous.
+
+This paper proposes such a framework. The proposal is interpretive, not technically novel: the mathematical relations we exploit are due to Bekenstein, Hawking, Unruh, Jacobson, Padmanabhan, Verlinde, and van Putten. Our contribution is a single physical picture under which the disparate results of those authors describe a single phenomenon --- that gravitational binding energy and escrowed entropy are the same quantity, and that gravity is the universe\'s accounts-receivable system for entropy held off the books in bound configurations.
+
+2\. The Escrow Postulate
+
+We propose the following postulate, which we will refer to as the escrow postulate:
+
+*Gravitational binding energy U between two masses is identical, up to a sign and a temperature factor, to the entropy S_esc held in escrow by the binding. The escrow is redeemed at the local Unruh temperature T whenever the binding is altered. Forces felt by an observer are gradients of escrowed entropy in that observer\'s frame; trajectories are paths along which the gradient is extremized.*
+
+Formally:
+
+S_esc(r) = \|U(r)\| / T(r), F = T · ∇S_esc
+
+with T(r) = ℏa(r) / (2π c k_B), the Unruh temperature associated with the local gravitational acceleration a(r). The first relation is dimensional bookkeeping; the second is the Verlinde identity. The novel content is interpretive: we read U as escrow rather than as a static potential, and the observer-dependence of ∇S_esc as the thermodynamic origin of the equivalence principle.
+
+Three immediate corollaries follow:
+
+\(i\) Escape requires entropy expenditure because escape redeems escrow; the redemption must be paid by entropy production in some external reservoir, since the second law forbids spontaneous reduction of S_esc without compensation.
+
+\(ii\) The escrow is a property of the bound pair, not of either mass individually. This is consistent with the well-known fact that gravitational potential energy belongs to the system, not to the components. We elevate this to a principle: the escrow is relational, frame-independent as a scalar, but its gradient is frame-dependent.
+
+\(iii\) Free-fall observers compute zero local gradient of escrow because every part of their frame falls identically and the escrow distribution is uniform across the frame. Force vanishes locally in free-fall. Tidal forces --- the irreducible differential of escrow --- survive. This is the equivalence principle, derived from the frame-dependence of entropy gradients.
+
+3\. The Equivalence Principle from Frame-Dependence of Escrow
+
+Before deriving Newton\'s law and the Bekenstein-Hawking entropy from the escrow postulate, we draw out a consequence that is, to the author\'s knowledge, original to the framework: the equivalence principle is the statement that escrow gradients are observer-relative the same way entropy is observer-relative. Tidal forces emerge as the irreducible non-uniform piece of the escrow distribution that survives transformation to a free-fall frame. We present this consequence first because it is the framework\'s most distinctive contribution and because the regime-by-regime derivations that follow (Sections 4-6) are restatements of established results under a unified vocabulary.
+
+A peculiar feature of gravity, known to every student of general relativity but rarely thematized, is its closed-system character. The Earth-Moon system behaves as a gravitational closed system despite being subject to enormous tidal forcings from the Sun, the Galactic center, and the cosmic microwave dipole. The solar system behaves as a closed system despite falling toward Andromeda. We do not feel Sagittarius A\*, though it pulls on us with a force we can compute.
+
+This is the equivalence principle in its operational form. In a freely falling frame, the external gravitational field is locally invisible. Within the escrow framework, the explanation is direct: the external field\'s escrow is uniform across any region small compared to the field\'s curvature scale. A uniform escrow has zero gradient. Gradient is force. The closed system feels nothing because there is nothing to feel --- the bookkeeping is balanced internally to the frame.
+
+Tidal forces survive precisely because they are the irreducible non-uniform piece of the escrow distribution. They are what cannot be transformed away. They are what enters the Riemann tensor in general relativity. The escrow framework predicts this without needing GR as motivation: tidal forces are the residual of escrow gradients that survive coordinate transformation.
+
+A clarification is in order on the sense in which escrow is observer-relative. Classical thermodynamic entropy, understood as a count of microstates accessible to a system in equilibrium, is approximately invariant in the limit where every observer can in principle access the same microstate description. What is observer-relative even at the quantum level is which microstates are accessible to a given observer --- the entanglement entropy across the observer\'s specific causal horizon, which is genuinely observer-dependent as a matter of quantum field theory rather than as a matter of information access alone. Different accelerating observers have different Rindler horizons and therefore partition the vacuum\'s degrees of freedom differently, with the result that the entanglement entropy associated with bound configurations is observer-dependent in the way naive classical entropy is not. The escrow framework inherits this distinction structurally rather than as a derived identity: S_esc plays the structural role of the entanglement entropy held off the observer\'s accessible books by the bound configuration, and it is the gradient of this observer-specific quantity that produces the gravitational force in the observer\'s frame. This is the interpretive sense in which the equivalence principle reads as a statement about how different observers partition the same underlying microstate count; a derivation establishing S_esc literally as an entanglement entropy from QFT first principles has not been carried out in the present paper.
+
+This also clarifies the relational character of escape. Whether the Moon escapes Earth or Earth escapes the Moon is a choice of reference frame. The escrow held by the Earth-Moon binding is frame-independent; the gradient that breaks the binding can be applied to either body. The entropy expended in escape is independent of which mass we describe as departing. This dissolves a confusion that lurks in undergraduate treatments of gravity, where \'escape\' is unconsciously framed as a property of the smaller object.
+
+4\. Newton\'s Law from the Escrow Postulate
+
+This derivation is essentially Verlinde\'s (2011) result, repeated here for completeness with the escrow interpretation made explicit. We note explicitly that the derivation is a self-consistency check rather than an independent derivation of Newton\'s law: the local Unruh temperature is computed using a = GM/r² as input, and Newton\'s force law is then recovered as the unique force law that renders the escrow self-consistent. This is the same circularity present in Verlinde\'s original argument. The interpretive content of the framework is the claim that this self-consistent picture has physical content --- that gravitational binding energy literally is escrowed entropy --- beyond the algebraic identity that connects them.
+
+For two masses M, m at separation r, the Newtonian binding energy is U(r) = -GMm/r. The local Unruh temperature at the position of m, due to its acceleration a = GM/r² toward M, is:
+
+T(r) = ℏGM / (2π c k_B r²)
+
+Substituting into the escrow postulate:
+
+S_esc(r) = (GMm / r) · (2π c k_B r² / ℏGM) = 2π c k_B m r / ℏ
+
+The r-dependence of U cancels exactly against the r-dependence of T, leaving an escrow that is linear in separation. The entropy gradient is therefore constant in magnitude, and the radial force is:
+
+F = T · dS_esc/dr = (ℏGM / 2π c k_B r²) · (2π c k_B m / ℏ) = GMm / r²
+
+Newton\'s law is recovered. The interpretation: gravitational attraction is the differential redemption of escrowed entropy as r decreases, mediated by the local Unruh temperature acting as the exchange rate between energy and entropy.
+
+5\. The Bekenstein-Hawking Limit
+
+At a Schwarzschild horizon, r = r_s = 2GM/c². Substituting into the escrow expression for self-binding (the entire mass localized at the horizon):
+
+S_esc(r_s) = 2π c k_B M · (2GM/c²) / ℏ = 4π G M² k_B / (ℏ c)
+
+This is exactly the Bekenstein-Hawking entropy. Substituting r_s = 2GM/c² and the horizon area A = 4π r_s² = 16π G² M² / c⁴, the relation A c³ / (4 G ℏ) reduces to 4π G M² / (ℏ c), which is the same expression we just derived. The match has no free coefficient: the M² scaling, the geometric prefactor, and the appearance of ℏ all emerge from the escrow postulate evaluated at the horizon. We note for technical precision that the temperature governing horizon thermodynamics in this limit is not the local Unruh temperature for an observer hovering at r_s, which diverges in the GR description as r → r_s, but the Hawking temperature T_H = ℏκ/(2πc·k_B) set by the horizon\'s surface gravity κ = c⁴/(4GM). The numerical coincidence that κ equals the Newtonian acceleration GM/r_s² evaluated at the horizon --- a known feature of the Schwarzschild geometry --- is what makes the escrow expression S_esc(r_s) recover Bekenstein-Hawking exactly when the horizon\'s natural thermodynamic temperature is used in place of the formally divergent local Unruh temperature.
+
+The physical picture: as a body collapses, the escrow of its self-binding grows monotonically. At the horizon, the escrow becomes infinite in the sense that no finite external entropy production can pay it off. The escrow is then forced to manifest directly, written on the horizon area as Bekenstein-Hawking entropy. The black hole is escrow finally cashed out into the universe\'s books, no longer hidden in a binding.
+
+6\. The MOND Regime and the de Sitter Floor
+
+The escrow postulate as stated above implicitly assumed that the local Unruh temperature dominates over any background temperature. This is excellent at planetary and stellar scales. It fails at the scale where gravitational accelerations approach the de Sitter scale, set by the cosmological constant Λ.
+
+The de Sitter horizon, in an asymptotically de Sitter universe with cosmological constant Λ, has an associated Unruh-like temperature given by the Gibbons-Hawking expression:
+
+T_dS = ℏ c √(Λ/3) / (2π k_B)
+
+This temperature is set by Λ alone and is therefore constant in cosmic time. It is the irreducible thermal background of an asymptotically de Sitter spacetime; every observer sees it, and there is no operation that can lower local entropy exchange below the floor it imposes. By the same Carnot argument that limits any heat engine, the effective temperature governing escrow exchange cannot lie below T_dS.
+
+When a particle\'s local Unruh temperature T_loc is large compared to T_dS, the escrow framework returns Newton\'s law unchanged. When T_loc approaches T_dS, the effective temperature must interpolate between the two scales. The deep-MOND asymptote, valid in the regime where T_loc → T_dS from above, takes the geometric-mean form T_eff = √(T_loc · T_dS); substituting into the force expression and solving for the centripetal acceleration on a circular orbit yields a = √(a_N · a_0), where a_0 emerges as the acceleration scale associated with the de Sitter floor:
+
+a_0 = c² √(Λ/3) / (2π)
+
+Numerically, with H₀ ≈ 70 km/s/Mpc and Ω_Λ ≈ 0.685 (consistent with current concordance cosmology), the Λ-form value is a₀ = c·H_Λ/(2π) ≈ 9.0 × 10⁻¹¹ m/s², where H_Λ = c√(Λ/3) = H₀√Ω_Λ. The closely related H₀-form expression c·H₀/(2π) ≈ 1.08 × 10⁻¹⁰ m/s² is larger by a factor of 1/√Ω_Λ ≈ 1.21. The two cosmological expressions therefore coincide only at the present epoch and only up to this order-unity factor; in a flat ΛCDM cosmology, H₀ and H_Λ differ by precisely √Ω_Λ today and diverge from one another at higher redshift. We adopt the following terminology consistently throughout the paper: the pure Λ-form refers to a₀ = c·H_Λ/(2π) ≈ 9.0 × 10⁻¹¹ m/s² and is the framework\'s structural commitment; the H₀-form refers to c·H₀/(2π) ≈ 1.08 × 10⁻¹⁰ m/s² and is the more commonly quoted expression in the thermodynamic-gravity literature, where it is sometimes called the \"Λ-floor.\" We note explicitly that the Λ-form prediction of 9 × 10⁻¹¹ m/s² lies approximately 25 percent below Milgrom\'s empirical value 1.20 × 10⁻¹⁰ m/s², with the residual gap discussed quantitatively in Section 8.4.3 as an order-unity coefficient awaiting derivation.
+
+We emphasize that the geometric-mean form T_eff = √(T_loc · T_dS) is the deep-MOND asymptote and is not intended as a global interpolation function. A full interpolation must reduce to T_eff → T_loc in the Newtonian regime (g_bar ≫ a_0) and to the geometric-mean form near the transition; deriving the appropriate interpolation function from horizon thermodynamics rather than postulating it is one of the open problems identified in Section 10. We further emphasize that the geometric-mean form is an ansatz adopted to recover the deep-MOND asymptote, not a derived consequence of QFT in de Sitter spacetime. The temperature seen by an Unruh-DeWitt detector for an accelerated observer in de Sitter spacetime is the Deser-Levin (1997) result T_eff² = T_loc² + T_dS², which adds in quadrature rather than as a geometric mean. The two are distinct physical quantities --- the Deser-Levin temperature is the QFT detector response, while the framework\'s T_eff is the thermodynamic effective temperature for entropy exchange --- but the relation between them is part of the unfinished derivation of horizon-matched thermodynamics identified in Section 10. The empirical MOND interpolation function commonly used by McGaugh and collaborators in fitting SPARC data is consistent with the deep-MOND limit our framework recovers, but the framework as developed here does not yet uniquely determine the transition functional form.
+
+This identification of a_0 with the de Sitter horizon scale recovers Milgrom\'s deep-MOND interpolation as a thermodynamic crossover at the cosmological horizon. The same identification has been argued, on different grounds, by Verlinde (2017), van Putten (2017, 2023), and others. The escrow framework provides a particular interpretive picture: the cosmological horizon is the universe\'s Carnot floor, and gravity transitions from inverse-square to inverse-distance behavior because escrow can no longer be efficiently redeemed below it.
+
+In a circular orbit at radius r outside a galaxy of baryonic mass M_b, the deep-MOND asymptote gives the baryonic Tully-Fisher relation v⁴ = G M_b a_0, observed since 1977 and, in the framework presented here, recovered as a consequence of the escrow postulate combined with the de Sitter thermodynamic floor.
+
+6.1 On the cosmological evolution of a_0
+
+A long-standing numerical coincidence is that the empirically inferred a_0 lies close to several distinct cosmological scales: the Hubble-scale expression cH₀/(2π), the de Sitter horizon expression c√(Λ/3)/(2π), the matter-density expression c√(Gρ_m), and the dark-energy expression c√(Gρ_Λ). These expressions are numerically related through the Friedmann equation, which makes √(Gρ_tot) and H coincide up to factors of order unity in any flat FRW cosmology. The framework presented here adopts the de Sitter interpretation as primary: a_0 is fixed at the present epoch by the Gibbons-Hawking temperature of the cosmological horizon, with T_dS determined by Λ alone. The matter-density expression provides an alternative way to write the same number numerically at z ≈ 0, but we do not promote it to a redshift-dependent law.
+
+The question of whether a_0 evolves with cosmic time is empirical. Milgrom (2017), analyzing the six high-redshift disk galaxies presented by Genzel et al. (2017) at z = 0.85 to 2.4, concluded that the data \'all but exclude\' a value of the MOND constant of approximately 4 a_0 at z \~ 2, which corresponds precisely to the (1+z)\^(3/2) scaling that would follow from identifying a_0 with √(Gρ_m). More recent samples --- notably the RC100 program of approximately one hundred massive star-forming galaxies at z = 0.6 to 2.5 (Nestor Shachar et al. 2023) --- likewise find low dark-matter fractions in the inner parts of high-redshift galaxies, qualitatively consistent with a roughly constant a_0 over this redshift range.
+
+The data have known systematic limitations --- low inclinations on several Genzel galaxies, Hα-only kinematics confined to the optical disk, model-dependent dark-matter fractions, asymmetric drift corrections, bulge-disk decomposition uncertainties at high z --- but the converging picture from Milgrom\'s analysis and the larger RC100 sample is that strong (1+z)\^(3/2) evolution is disfavored. Any redshift evolution, if present, must be more subtle than a pure power law in (1+z), and is not assumed or modeled in the present work.
+
+To make Milgrom\'s conclusion quantitative for the framework as developed here, and to extend his three-case test (constant a_0; canonical a_0; 4×-enhanced a_0 representing the (1+z)\^(3/2) matter-density scaling) to discriminate among further redshift-evolution scenarios, we evaluated the MOND prediction at the half-light radius of each of the six Genzel et al. (2017) galaxies under five distinct choices of a_0. Three are constant-in-z prescriptions: (i) Milgrom\'s canonical value 1.20 × 10⁻¹⁰ m s⁻²; (ii) the Hubble-scale value c·H₀/(2π) ≈ 1.08 × 10⁻¹⁰ m s⁻²; and (iii) a candidate value c·H₀/π\^(3/2) ≈ 1.221 × 10⁻¹⁰ m s⁻² (numerically attractive but lacking first-principles derivation; see the §10 conjecture). Two are evolving prescriptions: (iv) a_0(z) = 1.20 × 10⁻¹⁰ · H(z)/H₀ (Hubble-tracking, factor ≈3.0 at z = 2 for Ω_m = 0.315, Ω_Λ = 0.685); and (v) a_0(z) = 1.20 × 10⁻¹⁰ · (1+z)\^(3/2) (matter-density tracking, the case Milgrom evaluated). The bare Λ-form value c·H_Λ/(2π) ≈ 9.0 × 10⁻¹¹ m s⁻² was not directly tested as a separate case; we discuss its position relative to the constant-a_0 acceptance window in the closing paragraph of this subsection. For each prescription and for both the simple μ(x) = x/(1+x) and McGaugh exponential ν(y) = 1/(1 − e\^(−√y)) interpolation functions, we reconstructed g_obs = V_c²/R\_(1/2) and g_bar = g_obs · (1 − ζ\_(1/2)) from Milgrom\'s Table I and computed the residual Δ = log₁₀(g_obs / g_pred) for each galaxy.
+
+The result resolves the five prescriptions into two groups. The three constant-a_0 prescriptions (i, ii, iii) all yield mean residual \|Δ\| in the range 0.009 to 0.035 dex with RMS scatter 0.022 to 0.040 dex across both interpolation functions; they are statistically indistinguishable on the six-galaxy sample and all pass at the \|Δ\| ≲ 0.05 dex, RMS ≲ 0.05 dex acceptance level. The two evolving-a_0 prescriptions both fail. The (1+z)\^(3/2) case (v) gives mean Δ ≈ −0.17 to −0.18 dex with RMS ≈ 0.17 to 0.18 dex, reproducing Milgrom\'s \"all but excluded\" assessment as a roughly forty-percent systematic underprediction of g_obs across the six galaxies. The Hubble-tracking case (iv) gives mean Δ ≈ −0.10 to −0.12 dex with RMS ≈ 0.11 to 0.12 dex --- less extreme than (1+z)\^(3/2), but a factor of three to four worse than any constant-a_0 case and well outside the acceptance band. The Genzel sample therefore quantitatively excludes both evolving prescriptions and is consistent with constant a_0 across the tested range (1.08--1.22) × 10⁻¹⁰ m s⁻². The bare Λ-form value c·H_Λ/(2π) ≈ 9.0 × 10⁻¹¹ m s⁻² lies just below the lower edge of this tested range; in the asymptotic deep-MOND regime, where g_pred scales as √a_0, the predicted residual at this value relative to a_0 = 1.20 × 10⁻¹⁰ would be approximately +0.04 dex, but the actual residual is interpolation-function dependent and depends on the precise depth of each Genzel galaxy into the MOND regime; the relevant statement is that the bare Λ-form value sits near the boundary of the \|Δ\| ≲ 0.05 dex acceptance band rather than comfortably inside it. The bare Λ-form value was not separately evaluated in the table; the test as performed therefore distinguishes constant from evolving a_0 cleanly, and constrains the constant value to a band that includes the canonical Milgrom value, the H₀-form value, and the c·H₀/π\^(3/2) value, while leaving the bare Λ-form value at the edge of empirical viability. The full residual statistics for the five cases tested are summarized in Table 1.
+
+**Table 1.** Mean and RMS of Δ = log₁₀(g_obs / g_pred) over the six Genzel et al. (2017) galaxies, for five a_0 prescriptions and two interpolation functions. Acceptance criterion: \|mean Δ\| ≲ 0.05 dex and RMS ≲ 0.05 dex. All five prescriptions show a mild systematic underprediction bias (negative mean Δ across all cases), but only the constant-a_0 prescriptions remain inside the acceptance band; the evolving prescriptions fail by margins much larger than the systematic bias.
+
+  -------------------------------------------------------------------------------------------------------
+  **a_0 prescription**                   **mean Δ (μ)**   **RMS Δ (μ)**   **mean Δ (ν)**   **RMS Δ (ν)**
+  ------------------------------------- ---------------- --------------- ---------------- ---------------
+  \(i\) Canonical 1.20 × 10⁻¹⁰               −0.034           0.039           −0.016           0.025
+
+  \(ii\) Hubble-scale 1.08 × 10⁻¹⁰           −0.027           0.034           −0.009           0.022
+
+  \(iii\) c·H₀/π\^(3/2) 1.221 × 10⁻¹⁰        −0.035           0.040           −0.018           0.026
+
+  \(iv\) H(z)-tracking                       −0.117           0.122           −0.105           0.111
+
+  \(v\) (1+z)\^(3/2) tracking                −0.177           0.182           −0.168           0.174
+  -------------------------------------------------------------------------------------------------------
+
+Note: Prescription (iii) is included for completeness as the value c·H₀/π\^(3/2) and is the order-unity coefficient discussion of Section 8.4.3; we do not claim it as a derived prediction. Columns μ use the simple interpolation function μ(x) = x/(1+x); columns ν use McGaugh\'s exponential ν(y) = 1/(1 − e\^(−√y)).
+
+This extends Milgrom\'s (2017) result in a way that bears directly on the picture developed here. Milgrom established that matter-density tracking (case v) is disfavored by the Genzel data; we have now established that Hubble tracking (case iv) is independently disfavored on the same data, distinct from the (1+z)\^(3/2) exclusion and at a residual level (\~0.11 dex) that places it clearly in the rejected regime relative to the constant-a_0 cases (\~0.03 dex). This is a quantitative test that the constant-a_0 commitment of the present framework --- which derives from identifying T_dS with Λ rather than H(z) --- passes, and that frameworks identifying T_dS or a_0 with H(z) directly, including the H(z)-tracking proposal of van Putten (2017, 2023) when extrapolated to the Genzel sample, do not pass at the level here resolved. The structural choice to locate T_dS in Λ rather than in H(z), made in Section 6, is therefore supported by this test for what it asserts about redshift evolution; the question of whether the bare Λ-form numerical value 9.0 × 10⁻¹¹ m s⁻² is the right central value is separate, and is the order-unity coefficient discussion of Section 8.4.3.
+
+The escrow framework as presented here is therefore committed to the Λ-derived form of T_dS. In this reading, T_dS is a constant of nature set by the cosmological constant, and a_0 is correspondingly constant in time. The framework\'s prediction is consistent with Milgrom\'s local empirical value, with the SPARC reanalysis presented in Section 8.4, and with the five-case Genzel test above --- which independently excludes both matter-density tracking and Hubble tracking at the \|Δ\| ≳ 0.10 dex level on the present high-redshift sample. The price of the Λ-form commitment is that the framework no longer makes a distinctive prediction for the redshift evolution of a_0; this is a structural rather than incidental feature of identifying the floor with Λ rather than H. The benefit, made quantitative here, is that the framework correctly anticipates the empirical result that a_0 does not evolve with redshift in any of the simple power-law or Hubble-tracking forms that have been proposed. We do not pursue principled modifications of this commitment in the present paper, on the grounds that ad hoc interpolations between Λ-form and matter-form to match observations after the fact would constitute parameter-fitting rather than derivation, and would forfeit the framework\'s claim to recover the empirical scale up to a single order-unity coefficient.
+
+7\. Sketch of a Covariant Formulation
+
+The escrow postulate as introduced in Section 2 was non-relativistic, and the Newton, Bekenstein-Hawking, and MOND derivations of Sections 4-6 each invoked an observer-adapted Unruh temperature without specifying the underlying tensor structure. We now sketch the covariant generalization. Our purpose is not to develop the full machinery --- that requires technical work beyond the scope of this paper --- but to indicate that the framework\'s structure is naturally relativistic and to identify the geometric objects that make it so.
+
+The non-relativistic escrow postulate had three ingredients: a binding energy U, a local Unruh temperature T, and a scalar S_esc = \|U\|/T related to force by F = T·∇S. Each ingredient has a covariant analog.
+
+7.1 Binding energy density
+
+The Newtonian U is replaced by the Tolman-Komar energy density associated with a timelike Killing vector ξ\^μ:
+
+ε_bind(x) = (T\^μ_ν - ½ δ\^μ_ν T) ξ\^ν n_μ
+
+where T\^μ_ν is the matter energy-momentum tensor, T = T\^μ_μ its trace, and n_μ the unit normal to a chosen spatial hypersurface. In a static spacetime with timelike Killing vector ξ\^μ normalized at infinity, this is the standard Tolman-Komar mass density that reduces to the Newtonian binding energy in the appropriate weak-field limit and, integrated over a region containing matter, returns the system\'s gravitational mass-energy in the asymptotic-flat case. Note that ε_bind is a density measured relative to ξ and n rather than a scalar invariant; the dependence on this choice of foliation is part of the observer-relative structure that the framework will exploit in Section 7.3.
+
+7.2 Observer-dependent Unruh temperature
+
+The Unruh temperature is intrinsically observer-dependent. For a worldline with four-velocity u\^μ and four-acceleration a\^μ = u\^ν ∇\_ν u\^μ, the local Unruh temperature is the scalar:
+
+T(x, u) = ℏ √(a\^μ a_μ) / (2π c k_B)
+
+Different observers passing through the same event compute different temperatures. This frame-dependence is not a limitation; it is the source of the equivalence principle in the present framework.
+
+7.3 Escrow density as a scalar over observer bundles
+
+Define the escrow density:
+
+σ(x, u) = ε_bind(x) / T(x, u)
+
+This is a scalar under coordinate transformations but a function on the bundle of timelike worldlines through each event. The total escrow attributed to a region Σ on a hypersurface, by an observer with worldline u\^μ, is:
+
+S_esc\[Σ, u\] = ∫\_Σ σ(x, u) √h d³x
+
+with h the determinant of the induced spatial metric. This object is the relativistic analog of \|U\|/T integrated over a region.
+
+7.4 The covariant force law and geodesic deviation
+
+The four-force attributed by observer u\^μ to escrow gradients is:
+
+f_μ = T(x, u) · h\^ν_μ ∇\_ν σ(x, u)
+
+with h\^ν_μ = δ\^ν_μ + u\^ν u_μ/c² the spatial projector. For stationary observers in a Schwarzschild geometry, this reduces to Newton\'s law in the appropriate limit (Section 4). For observers in free-fall (geodesic u\^μ), the four-acceleration vanishes and T(x, u) → 0, rendering σ formally degenerate at the worldline. The non-vanishing physics is recovered by considering the relative acceleration of two nearby free-fall worldlines: the leading-order escrow gradient between them is governed by the Riemann tensor:
+
+D²ξ\^μ/dτ² = −R\^μ_νρσ u\^ν ξ\^ρ u\^σ
+
+where ξ\^ρ is the separation between the worldlines and we have written the relative acceleration in the standard sign convention D²ξ\^μ/dτ² = −R\^μ_νρσ u\^ν ξ\^ρ u\^σ. This is the geodesic deviation equation. Tidal forces are thus the irreducible piece of the escrow gradient that survives transformation to a free-fall frame, exactly as anticipated in the non-covariant treatment of Section 3, and consistent with Jacobson\'s (1995) derivation of Einstein\'s field equations from local Rindler thermodynamics.
+
+7.5 The de Sitter floor as a covariant condition
+
+The de Sitter horizon temperature is a property of the spacetime, set by the cosmological constant Λ:
+
+T_dS = ℏ c √(Λ/3) / (2π k_B)
+
+The Carnot-floor constraint on escrow exchange becomes a covariant lower bound on the effective temperature governing entropy redemption:
+
+T_eff(x, u) ≥ T_dS
+
+with the geometric-mean interpolation T_eff = √(T_local · T_dS) holding in the regime where T_local approaches T_dS. This condition couples local gravitational dynamics to the global cosmological background through the cosmological constant --- a coupling that reproduces the MOND scale and Tully-Fisher relation as derived in Section 6, and that constitutes the framework\'s principal departure from standard general relativity.
+
+7.6 Toward modified field equations
+
+A complete derivation of the modified field equations from a variational principle on total entropy --- extending Jacobson (1995) to incorporate the de Sitter floor --- is the natural next step. Jacobson showed that demanding the Clausius relation δQ = T dS hold across all local Rindler horizons, with T the Unruh temperature for an accelerated observer and dS the Bekenstein area-entropy of the horizon, yields Einstein\'s field equations with cosmological constant. The escrow modification consists of replacing T with the effective temperature T_eff bounded below by T_dS:
+
+δQ = T_eff dS, T_eff ≥ T_dS
+
+A naive substitution of T_eff for T in Jacobson\'s derivation yields field equations in which the matter stress-energy tensor acquires a multiplicative correction f(τ), with τ = T_local / T_dS:
+
+G_μν + Λ g_μν = (8πG/c⁴) · f(τ) · T_μν \[naive form, Bianchi-incompatible\]
+
+This naive form is structurally inadmissible. The contracted Bianchi identity ∇\^μ G_μν = 0 is a geometric identity that holds for any pseudo-Riemannian metric, independent of the field equations imposed on it. Combining it with the naive form above forces ∇\^μ(f(τ) T_μν) = 0, which gives ∇\^μ T_μν = -(T_μν / f) ∇\^μ f ≠ 0. A non-conserved stress-energy tensor implies that test bodies do not follow geodesics of g_μν, which directly contradicts the equivalence-principle argument of Section 3. The framework cannot tolerate this contradiction. The naive multiplicative form is therefore rejected.
+
+The structurally correct alternative is to encode the de Sitter floor modification in an effective cosmological term that varies with τ rather than as a multiplier on T_μν:
+
+G_μν + Λ_eff(τ) g_μν = (8πG/c⁴) · T_μν
+
+A correct treatment of the Bianchi identity requires care here. Taking the divergence of G_μν + Λ_eff(τ) g_μν = (8πG/c⁴) T_μν and using ∇\^μ G_μν = 0 together with ∇\^μ g_μν = 0 yields ∂\_ν Λ_eff = (8πG/c⁴) ∇\^μ T_μν. If T_μν is the ordinary matter stress-energy and is required to be conserved on its own (so that test bodies follow geodesics of the metric), this exact identity forces Λ_eff to be strictly constant. A genuinely varying Λ_eff(τ) is therefore inconsistent with the assumption that ordinary matter is independently conserved; it is consistent only if the modification is read as part of an effective stress-energy sector in its own right, T_μν\^(Λ_eff), with the Bianchi identity satisfied by the total ∇\^μ(T_μν + T_μν\^(Λ_eff)) = 0. In that reading, the Λ_eff sector exchanges energy-momentum with matter on the scales over which τ varies, and the derivation must specify the additional degrees of freedom realizing this exchange. We have not constructed the Λ_eff sector explicitly in the present paper; the structural form G_μν + Λ_eff(τ) g_μν = (8πG/c⁴) T_μν\^(total) is consistent with Bianchi and with the equivalence principle for ordinary matter, but realizing it as a closed dynamical system requires a complete specification of T_μν\^(Λ_eff) that we identify in Section 10 as part of the open derivation task. The corresponding functional form of Λ_eff(τ) needed to reproduce the deep-MOND asymptote of Section 6 has not been derived in the present paper.
+
+7.7 Status of the relativistic extension
+
+Three constraints any complete extension must satisfy are now identified explicitly. First, Bianchi consistency: the modification must enter through the geometric (Λ-like) sector or through an extended action, not as a multiplier on T_μν, and a genuinely varying Λ_eff(τ) requires the construction of an associated effective stress-energy sector T_μν\^(Λ_eff) so that the Bianchi identity is satisfied by the total stress-energy. Second, equivalence principle preservation: ordinary matter must follow geodesics of the metric, which the Λ_eff(τ) form can respect in a theory where the Λ_eff sector is realized by additional degrees of freedom that exchange energy-momentum with ordinary matter in a way that preserves geodesic motion for test bodies. Constructing such a sector is part of the open derivation problem. Third, recovery of Section 6\'s deep-MOND asymptote in the appropriate limit, with the empirical Milgrom acceleration scale recovered up to the order-unity coefficient discussed in Section 8.4.3, emerging from the matching condition between Rindler and de Sitter horizon thermodynamics.
+
+A satisfactory derivation of Λ_eff(τ) from horizon thermodynamics is the central technical task remaining for a complete relativistic theory and is the most pressing open problem identified in this paper. We anticipate that the derivation can be carried out by matching the Clausius relation across Rindler horizons and the de Sitter horizon in the regime where their Unruh temperatures become comparable, but the calculation has not been performed and we do not present the result. The relativistic content of the framework, in its present state, is at the level of identifying the right structural form for the modification, not at the level of deriving the modification itself.
+
+8\. Predictions, Tests, and Constraints
+
+The escrow framework is interpretive: its mathematical scaffolding consists of established results (Verlinde 2011 for Newton, Bekenstein-Hawking 1973-75 for the horizon limit, Milgrom 1983 / Verlinde 2017 / van Putten 2017 for the MOND-de Sitter identification). The framework does not, in the form presented here, generate distinctive numerical predictions that distinguish it observationally from those underlying constructions. Honest engagement with the empirical landscape requires distinguishing four categories of claim: shared predictions that the framework now reads under a unified picture; constraints that any framework in this family must accommodate; speculative directions that lie beyond present observational reach; and consistency checks against existing empirical anchors that any framework in this family must pass.
+
+8.1 Shared predictions
+
+The framework recovers three established empirical relations as consistency conditions: Newton\'s inverse-square law in the strong-field regime (recovered exactly with no free parameters), Bekenstein-Hawking entropy at horizons (recovered exactly with no free parameters), and the baryonic Tully-Fisher relation v⁴ = G M_b a_0 (recovered up to the order-unity coefficient α discussed in Section 8.4.3, with a_0 set by the de Sitter floor temperature). These are not novel predictions of the framework; they are the framework\'s consistency conditions with established physics. The framework\'s interpretive contribution is to read all three as manifestations of one principle (entropy escrow against the de Sitter floor) rather than as separate phenomena.
+
+8.2 Constraints any framework in this family must accommodate
+
+Two constraints from the empirical literature bear directly on the kind of theory the escrow framework belongs to and must be addressed honestly.
+
+First --- constraints on cosmological evolution of a_0. As discussed in Section 6.1, Milgrom (2017) analyzed the six high-redshift disk galaxies of Genzel et al. (2017) and found that a_0 ∝ (1+z)\^(3/2) is disfavored by the data at z ∼ 2. The five-case extension of that test reported in Section 6.1 independently establishes that direct H(z)-tracking of a_0 is also disfavored at the ∼0.11 dex residual level on the same data, separate from and weaker than the (1+z)\^(3/2) exclusion but still well outside the \|Δ\| ≲ 0.05 dex acceptance band that the constant-a_0 cases occupy. Frameworks that derive a_0 from a quantity evolving as H(z) in the matter-dominated era --- including the H(z)-tracking proposal of van Putten (2017, 2023) --- are therefore in tension with the Genzel sample at a quantitatively resolved level, not merely with the (1+z)\^(3/2) limit. The escrow framework as presented here is committed to the Λ-set form of T_dS, which is constant in cosmic time and therefore consistent with Milgrom\'s local empirical value, with the SPARC reanalysis of Section 8.4, and with the absence of strong cosmological evolution established in Section 6.1. The framework, in the form developed here, does not encounter this tension because it locates T_dS in Λ rather than H.
+
+Second --- radial distribution of cluster mass discrepancies. MOND-style frameworks underestimate cluster dynamics by a factor of two to three when averaged across the cluster. More importantly for the present discussion, the discrepancy is not uniformly distributed: it is largest in the cluster cores, reaching factors of order ten in the inner two hundred kiloparsecs (Aguirre, Schaye & Quataert 2001; Pointecouteau & Silk 2005), and smaller in the outskirts where MOND with sterile neutrinos can adequately describe the dynamics. Any thermodynamic-gravity framework that locates MOND-like corrections at low-acceleration outskirts (high T_local well above T_dS in the cores; T_local approaching T_dS only at large radii) predicts the opposite spatial pattern from what is observed. The escrow framework as presented here inherits this difficulty: the framework predicts that cluster cores are firmly in the Newtonian regime and should not show MOND-style enhancements, whereas the data show the largest discrepancy precisely in the cores. This is a real empirical problem for the escrow interpretation as developed here, and we flag it as such rather than attempting to dissolve it. Resolution likely requires either (a) an additional matter component in cluster cores, as in the sterile-neutrino patches of Sanders (2003) and Angus et al. (2008), or (b) a non-thermodynamic ingredient in the framework that produces enhancement in regions of high local entropy density, which is not present in the formulation given here. We note explicitly that within the framework as developed here, with τ = T_local/T_dS as the only control variable, there is no lever to redistribute MOND-style enhancement into the cores; the spatial pattern of cluster discrepancies cannot be addressed without genuinely new structure.
+
+8.3 Speculative directions
+
+Two speculative predictions are well-defined within the framework but lie beyond present observational reach.
+
+Gravitational time dilation should correlate with local entropy density beyond the standard gravitational redshift. In regions of high thermal entropy density --- stellar cores, accretion disks, the early universe --- the framework predicts an additional clock-rate suppression proportional to thermal entropy density divided by the local Unruh temperature. The size of this effect is small at all observable scales but well-defined.
+
+Entropy radiation in late-stage gravitational wave inspirals could in principle differ from standard general relativity in regimes where local accelerations approach a_0. For LIGO-band stellar-mass binaries the regime is far from this limit and no measurable deviation is expected. For LISA-band supermassive binary inspirals at parsec separations, the framework would predict a small frequency-dependent modification of the entropy radiation rate, but the magnitude has not been computed and the signature has not been compared with what TeVeS or other relativistic MOND-extensions would predict in the same regime. We flag this as a direction worth investigating, not as an established prediction.
+
+8.4 SPARC consistency check on the deep-MOND acceleration scale
+
+8.4.1 Data and method
+
+The framework's present-epoch Λ-form prediction is a_0 = c√(Λ/3) / (2π) ≈ 9.0 × 10⁻¹¹ m s⁻² (Section 6, with H₀ = 70 km/s/Mpc and Ω_Λ = 0.685; the H₀-form value c·H₀/(2π) ≈ 1.08 × 10⁻¹⁰ m s⁻² is larger by 1/√Ω_Λ ≈ 1.21). We compared this prediction to the empirical deep-MOND acceleration scale measured from spiral galaxy rotation curves using the public SPARC mass-models table (Lelli, McGaugh & Schombert 2016), which provides 3.6-μm photometry and HI rotation curves for 175 disk galaxies, with the fiducial stellar mass-to-light ratios ϒ_disk = 0.5 and ϒ_bul = 0.7 adopted by Lelli et al. We computed, at each radial point, the baryonic acceleration g_bar = (V_gas² + ϒ_disk V_disk² + ϒ_bul V_bul²) / R and the observed acceleration g_obs = V_obs² / R in SI units, applying the standard cuts (g_bar \> 0, R \> 0, V_obs \> 0). Restricting to the deep-MOND regime (g_bar \< a_0_Milgrom / 10) yields approximately 1,400 points across approximately 140 galaxies. For each galaxy with at least three deep-MOND points (approximately 130 galaxies) we computed the per-galaxy median of g_obs²/g_bar as the per-galaxy a_0 estimator. The full analysis script and reproducibility instructions are deposited alongside this paper; exact counts may vary by a few units across SPARC table revisions.
+
+The global deep-MOND a_0, computed as the median of g_obs²/g_bar over all approximately 1,400 deep-MOND points, is 1.24 × 10⁻¹⁰ m s⁻², with the corresponding mean of order 1.6 × 10⁻¹⁰ m s⁻². The per-galaxy distribution has median 1.24 × 10⁻¹⁰ m s⁻² and mean of order 1.6 × 10⁻¹⁰ m s⁻² with substantial scatter (broader than 1 × 10⁻¹⁰ m s⁻²), the broad scatter being dominated by known systematics (distance uncertainties, inclination, M/L). For the canonical low-surface-brightness deep-MOND test galaxy DDO 154, the per-galaxy median yields a_0 ≈ 1.0 × 10⁻¹⁰ m s⁻², consistent with Milgrom's (1988) original fit value of approximately 1.3 × 10⁻¹⁰ m s⁻² and within the (1.0, 1.5) × 10⁻¹⁰ m s⁻² band reported across SPARC reanalyses for individual deep-MOND galaxies.
+
+8.4.2 Comparison to the Λ-based prediction and the literature
+
+The SPARC-derived deep-MOND scale, a_0\^SPARC ≈ 1.24 × 10⁻¹⁰ m s⁻², agrees with Milgrom's canonical 1.20 × 10⁻¹⁰ m s⁻² within approximately four percent. The framework's Λ-form prediction a_0\^Λ = c√(Λ/3) / (2π) ≈ 9.0 × 10⁻¹¹ m s⁻² (computed with H₀ = 70 km/s/Mpc and Ω_Λ = 0.685) lies approximately 25 to 28 percent below the empirical value. The closely related H₀-form expression c·H₀/(2π) ≈ 1.08 × 10⁻¹⁰ m s⁻² lies approximately 13 percent below. The 25-percent gap between the Λ-form prediction and the SPARC value is larger than would naively be absorbed into the SPARC systematic budget set by the approximately seven percent uncertainty in H₀ and the 0.5--0.7 fiducial range in stellar mass-to-light, and is the gap structurally accounted for by an order-unity coefficient in Section 8.4.3 below. The framework therefore predicts a_0 only up to this order-unity factor; whether the factor is to be derived as a structural coefficient in the matched-asymptotic Rindler--de Sitter calculation, or absorbed phenomenologically as a systematic offset, is identified as the most consequential open question in Section 10.
+
+A second feature of the SPARC literature bears directly on the framework's commitments. Li et al. (2018) performed individual-galaxy fits to the radial acceleration relation, allowing each galaxy its own best-fit a_0 alongside its own best-fit stellar mass-to-light, distance, and inclination. They found that the joint goodness-of-fit does not improve when galaxy-by-galaxy a_0 scatter is permitted: a single universal a_0 fits the SPARC sample as well as any per-galaxy distribution, and the apparent scatter in fitted a_0 values is consistent with being entirely driven by the nuisance parameters (distance, inclination, M/L) rather than by genuine astrophysical variation. This empirical result --- that a_0 is universal across galaxies of widely varying mass, surface brightness, gas fraction, and morphology --- is what the escrow framework predicts: if a_0 is set by the cosmological horizon temperature T_dS, it should be a constant of nature with no galaxy-by-galaxy variation, and the per-galaxy scatter we see in the SPARC reanalysis above should and does live in the systematics rather than in the underlying physics.
+
+8.4.3 The twenty-five percent offset and the order-unity coefficient
+
+The approximately twenty-five percent offset between the Λ-form prediction a_0\^Λ = c√(Λ/3)/(2π) and the SPARC fitted value, while large enough to lie at or beyond the SPARC systematic budget, can be read structurally rather than as a failure of the framework. The geometric-mean asymptote of Section 6, T_eff = √(T_local · T_dS), was derived under the simplifying assumption that the relevant horizon scale entering T_dS is the de Sitter horizon radius itself, with a 2π factor inherited directly from the Unruh-Gibbons-Hawking expression. A more careful derivation matching Rindler horizon thermodynamics to de Sitter horizon thermodynamics in the deep-MOND crossover regime would in general introduce an order-unity coefficient α reflecting the precise definition of the effective horizon radius in the matched-asymptotic regime, the geometry of entropy flow across the horizon, and the dimensionless ratio between local and global thermodynamic phase spaces. Writing a_0 = α · c√(Λ/3) / (2π), the SPARC value implies α ≈ 1.39, which is comfortably in the order-unity range and within a factor of order unity of natural geometric coefficients (e.g. e/2 ≈ 1.36, √2 ≈ 1.41, or 1/√Ω_Λ ≈ 1.21). We emphasize that α is not a fitted parameter of the present framework but a structural placeholder for the unfinished derivation in Section 7; we do not claim a precise value for α, and the precision of the SPARC determination of a_0 is in any case insufficient to distinguish among the candidate order-unity factors. A satisfactory derivation of α is part of the open task identified in Section 10 of computing Λ_eff(τ) from the Rindler-de Sitter horizon-matching condition.
+
+We emphasize that the tests in this subsection are consistency checks rather than distinguishing tests. The standard MOND framework with a_0 treated as a fitted constant also passes these checks, by construction. The escrow framework's contribution at the SPARC level is interpretive rather than predictive: it identifies the empirical Milgrom scale with the Gibbons-Hawking temperature of the cosmological horizon and recovers the value to within an order-unity coefficient without further free parameters, and it predicts the universality of a_0 across galaxy types as a structural consequence rather than as an empirical observation requiring explanation. A genuinely distinguishing empirical test of the framework, as opposed to the broader MOND-thermodynamic family it belongs to, requires either a derivation of the transition functional form from horizon thermodynamics (Section 10) or a regime in which the framework's commitment to the Λ-form of T_dS, rather than the H(z)-form, makes a quantitative difference; the high-redshift residuals reported in Section 6.1 are the closest existing realization of the latter.
+
+8.5 Cross-redshift consistency: SPARC and Genzel together
+
+The empirical anchors developed in this paper come from two redshift regimes, and it is worth stating their joint constraint explicitly. The SPARC reanalysis of Section 8.4 yields a global deep-MOND a_0 of approximately 1.24 × 10⁻¹⁰ m s⁻² from 175 disk galaxies at z ≈ 0, with a per-galaxy median of approximately the same value and a SPARC systematic budget at the ten-to-fifteen percent level. The Genzel five-case test of Section 6.1 isolates the constant-a_0 region of the present high-redshift sample to (1.08--1.22) × 10⁻¹⁰ m s⁻² for galaxies at z ≈ 0.85 to 2.4. The SPARC value at z ≈ 0 lies slightly above the upper edge of, but is statistically consistent with, the Genzel constant-a_0 window --- the gap between 1.24 × 10⁻¹⁰ and the tested upper edge 1.221 × 10⁻¹⁰ being within the SPARC systematic budget --- and the H₀-form value c·H₀/(2π) ≈ 1.08 × 10⁻¹⁰ m s⁻² lies at the lower edge; the bare Λ-form value c·H_Λ/(2π) ≈ 9.0 × 10⁻¹¹ m s⁻² lies below the lower edge of the Genzel window, with the residual gap being the order-unity coefficient discussed in Section 8.4.3. Both samples are nonetheless mutually consistent with a single time-independent a_0 in the range (1.08--1.25) × 10⁻¹⁰ m s⁻². Across roughly 11 Gyr of cosmic time, no statistically resolved evolution of a_0 is required to fit either sample. This is the empirical content of locating T_dS in Λ as we have done: a_0 is observationally constant from z = 0 to z ≈ 2.4, and the framework predicts a constant a_0, with the residual gap between the bare Λ-form prediction and the empirical central value to be absorbed by the order-unity coefficient awaiting derivation.
+
+8.6 The baryonic Tully-Fisher relation
+
+An additional empirical anchor is the baryonic Tully-Fisher relation (BTFR). In the deep-MOND limit the asymptotic rotation velocity of a circular orbit at large radius around a baryonic mass M_b satisfies V\_∞⁴ = G M_b a_0 (Section 6); this is the BTFR with exact slope four and a zero-point set entirely by a_0 once the gravitational constant and the baryonic mass have been fixed. The observed BTFR on the SPARC sample (Lelli, McGaugh & Schombert 2016; McGaugh 2012) has a measured slope close to four --- McGaugh (2012) reports 3.94 ± 0.11 from the rotation-curve subsample, with subsequent fits using slightly different velocity definitions yielding values in the approximate range 3.85 to 3.95 --- statistically indistinguishable from the asymptotic slope of four predicted by the deep-MOND limit, with a zero-point that corresponds to a_0 in the range (1.20--1.25) × 10⁻¹⁰ m s⁻² under the same fiducial 3.6-μm mass-to-light ratios used in the radial acceleration relation. The BTFR-derived a_0 and the RAR-derived a_0 (Section 8.4) therefore agree at the two-percent level on the same sample, providing two methodologically independent measurements of the deep-MOND scale that converge on the same value within the SPARC systematic budget.
+
+The BTFR also provides an independent route to constraining redshift evolution of a_0. If a_0 evolved with cosmic time, the BTFR zero-point would shift accordingly: an a_0 ∝ H(z) scaling at z ≈ 2 would predict a zero-point shift of approximately 0.48 dex relative to the local value, and an a_0 ∝ (1+z)\^(3/2) scaling would predict approximately 0.72 dex. High-redshift Tully-Fisher studies (Übler et al. 2017; Nestor Shachar et al. 2023) report no zero-point evolution beyond what is expected from stellar-mass growth at the relevant redshifts. This is consistent with the constant-a_0 result obtained directly from the Genzel residuals in Section 6.1 and with the SPARC determination in Section 8.4, and it provides a methodologically distinct empirical channel through which the same conclusion is reached: across the redshift range now sampled, the deep-MOND acceleration scale does not evolve in the simple Hubble-tracking or matter-density-tracking forms that have been proposed.
+
+9\. Relation to Prior Work
+
+The escrow framework owes its mathematical scaffolding to others. Jacobson (1995) derived Einstein\'s field equations from the Clausius relation applied to local Rindler horizons. Padmanabhan (2002-2021) developed the program in which gravitational dynamics is the thermodynamic limit of underlying spacetime atoms. Verlinde (2011) derived Newton\'s law from holographic-screen entropy and (2017) extended this to a de Sitter background where dark matter is reinterpreted as elastic response of long-range entanglement entropy. Van Putten (2017, 2023) showed that the de Sitter scale of acceleration tracks H(z) and uses this to address the unexpected abundance of massive early galaxies seen by JWST. Milgrom (2017) analyzed the high-redshift rotation curves of Genzel et al. (2017) and concluded that strong cosmological evolution of a_0, of the form a_0 ∝ (1+z)\^(3/2), is disfavored by these data; this constraint substantially limits the space of viable thermodynamic-gravity proposals that derive a_0 from a quantity evolving as H(z) in the matter-dominated era.
+
+The contribution of the present paper is a physical reframing rather than new mathematical machinery. We read the results above as facets of a single physical picture: that gravitational binding energy is escrowed entropy, exchanged at the local Unruh temperature against the cosmological horizon as thermodynamic floor. The escape-velocity framing, the closed-system frame argument, the equivalence-principle derivation from frame-dependence of escrow gradients, and the continuous interpolation from Newton through MOND to Bekenstein-Hawking under a common bookkeeping vocabulary are, to the author\'s knowledge, not present together in the literature in this form. The reframing makes a substantive claim --- that gravity and entropy are the same phenomenon viewed through different vocabularies, rather than two phenomena that happen to be related --- and we offer it as a contribution to how thermodynamic gravity should be conceptualized, distinct from but building on the technical contributions of the authors cited above. We claim no priority on individual derivations and refer the reader to the prior authors for the mathematical machinery. Where the framework is committed to a particular position --- for instance, locating the de Sitter floor in Λ rather than H(z) --- we have stated the commitment and identified the empirical considerations that motivate it.
+
+10\. Open Questions
+
+The radial distribution of cluster mass discrepancies (Section 8.2) is a real difficulty for the framework as developed here. The framework predicts that high-T_local regions --- including cluster cores --- should be firmly Newtonian, with no MOND-style enhancement. The data show the opposite: the largest discrepancies appear in the cores, with discrepancy ratios of order ten in the inner two hundred kiloparsecs. Whether the framework can be amended to accommodate this pattern, either through additional matter components (sterile neutrinos, as in Sanders 2003 and Angus et al. 2008) or through structural modification of the escrow postulate, is the most pressing open question.
+
+The relativistic structure is sketched in Section 7. The structurally correct form of the modified field equations is identified --- the de Sitter floor enters as an effective cosmological term Λ_eff(τ) varying with τ = T_local/T_dS, not as a multiplicative correction on the matter stress-energy tensor (which would violate the Bianchi identity and the equivalence principle, as discussed in Section 7.6). The functional form of Λ_eff(τ) has not been derived from first principles. A satisfactory derivation requires matching Rindler horizon thermodynamics to de Sitter horizon thermodynamics in the regime where their Unruh temperatures become comparable. This calculation is the central technical task remaining for a complete relativistic theory.
+
+A related question concerns the transition functional form itself. The deep-MOND asymptote of Section 6 is recovered by a family of interpolation functions related by different temperature-aggregation rules in the Carnot crossover, including the simple-μ and McGaugh-ν forms standardly used in fitting SPARC data, the generalized-mean family ν_p(x) = ((1 + x⁻ᵖ)/2)\^(1/p) parametrized by a single index p, and a \"quadrature\" form g_obs = √(g_bar² + g_bar·a_0) that emerges from T_eff = √(T_R(T_R + T_dS)). In numerical experiments on a SPARC subset of approximately 200 radial points across approximately 14 galaxies (including the canonical RAR test cases NGC 3198, NGC 2403, NGC 2915, and DDO 154; analysis script deposited alongside this paper), we find that simple-μ, McGaugh-ν, and the quadrature form produce statistically indistinguishable best-fit residuals once a_0 is allowed to float, with differences between the three forms below the per-galaxy systematic budget that dominates unmarginalized residual scatter at this sample size. This is a smoke test rather than a publication-grade interpolation comparison --- in particular, no per-galaxy distance, inclination, or mass-to-light marginalization is performed --- but it is sufficient to indicate that selecting a unique transition function from horizon thermodynamics rather than from data fitting remains an open problem. Current data quality, on the unmarginalized analysis attempted here, is insufficient to discriminate among the natural candidates within the framework\'s family of available crossover prescriptions, and a derivation based on entropy extremization or matched-asymptotic horizon thermodynamics is the appropriate route to a unique selection.
+
+A numerical coincidence in the deep-MOND scale
+
+A numerical regularity in the empirical scoreboard developed in Sections 6.1, 8.4, 8.5, and 8.6 is worth flagging as a candidate target for the Rindler--de Sitter horizon-matching derivation discussed above. The empirical determinations of a_0 from independent channels --- the SPARC global median (1.24 × 10⁻¹⁰ m s⁻²), the Li et al. (2018) individual-galaxy fit (1.19 × 10⁻¹⁰ m s⁻²), Milgrom\'s canonical value (1.20 × 10⁻¹⁰ m s⁻²), the BTFR zero-point (1.20--1.25 × 10⁻¹⁰ m s⁻²), and the upper edge of the Genzel constant-a_0 window (1.22 × 10⁻¹⁰ m s⁻²) --- cluster in the narrow range (1.19--1.25) × 10⁻¹⁰ m s⁻². The bare Λ-form prediction c·H_Λ/(2π) ≈ 9.0 × 10⁻¹¹ m s⁻² underpredicts this cluster by approximately twenty-five to twenty-eight percent (Section 8.4.3); the bare H₀-form expression c·H₀/(2π) ≈ 1.08 × 10⁻¹⁰ m s⁻² underpredicts by approximately thirteen percent. The value c·H₀/π\^(3/2) ≈ 1.22 × 10⁻¹⁰ m s⁻², by contrast, matches the central tendency of the empirical cluster to within 1--3 percent across all five channels.
+
+The factor by which c·H₀/π\^(3/2) exceeds the bare Unruh--Gibbons--Hawking value c·H₀/(2π) is 2/√π ≈ 1.128. We have no derivation of this factor from horizon thermodynamics. It is of the same general order as simple geometric averages that appear in matching planar and spherical horizon patches --- for example, the RMS of cosθ over a hemisphere with sinθ weighting evaluates to 1/√3 ≈ 0.577, which is not 2/√π but is in the same order-unity range that characterizes such averages --- and it is plausible that some specific weighted integral over the matched-asymptotic Rindler-to-de-Sitter horizon geometry produces a number within a few percent of 2/√π. We have not constructed that integral. We note also that the factor\'s natural appearance in the H₀-form is in tension with the framework\'s empirical commitment to the Λ-form established in Sections 6 and 6.1. We are therefore careful to flag this as a numerical coincidence whose status as a derived structural coefficient awaits the matched-asymptotic Rindler--de Sitter calculation identified above as the central technical task of the framework, and we explicitly do not claim the value 2/√π has been derived from any specific geometric construction in the present paper.
+
+If a first-principles derivation of the matching condition produces the geometric coefficient 2/√π, the framework gains a parameter-free prediction at the few-percent level: a_0 = c·H/π\^(3/2), with the appropriate identification of which Hubble-like quantity (H₀, H_Λ, or some matched combination) enters the expression to be settled by the same calculation. If the derivation produces a different value, the conjecture is falsified and the twenty-five-percent offset must be absorbed elsewhere in the framework\'s systematic budget. Two open problems must be resolved jointly: the derivation of the geometric coefficient, and the identification of the appropriate Hubble-scale argument that simultaneously preserves the constant-in-z empirical result of Section 6.1 and produces the central numerical value of the empirical cluster. We flag this as the most concrete candidate for a parameter-free quantitative prediction in the framework, and we offer it explicitly as a conjecture rather than a result so that subsequent derivations --- whether by the present authors or by others --- can be evaluated against a stated structural target rather than against a fit performed after the fact.
+
+The connection to information-theoretic bounds --- Landauer\'s principle, the Bekenstein bound, the holographic principle --- invites a deeper integration. If gravitational binding is literally escrowed information about the bound configuration, then the second law of thermodynamics, the holographic bound on degrees of freedom, and the universal attractiveness of gravity might be three faces of the same constraint on physical bookkeeping. This is a direction worth pursuing rather than an established result.
+
+11\. Conclusion
+
+Newton observed that a falling apple and an orbiting Moon obey the same law and wrote F = GMm/r². Einstein observed that an accelerating elevator and a gravitational field are locally indistinguishable and wrote G_μν = 8πT_μν. The proposal of this paper sits at lower technical altitude but in the same lineage: a bound mass-pair and an entropy-bearing reservoir are the same physical system viewed through different vocabularies. Mass attracts mass because the universe is a thermodynamic system that wants to balance its books, and gravitational binding is an off-book account that the universe is constantly attempting to redeem.
+
+The framework in its present form is interpretive rather than predictive. It unifies a set of established empirical relations under a single picture, and it matches the empirical Milgrom acceleration scale up to an order-unity coefficient whose derivation is identified as the central technical task remaining. It does not in its present form derive the precise numerical value of a_0, the functional form of the MOND interpolation, or the closed dynamical system that would follow from the modified field equations sketched in Section 7. Where the picture organizes existing physics, it does so in a way that we believe is illuminating; where it reaches for new content, it does so with explicit acknowledgment of which derivations remain open and which assumptions remain unjustified.
+
+Several apparently disparate features of gravity become facets of one principle under this reading. The universal attractiveness of gravity reflects the one-directional character of entropy production: the second law has no opposite, and so neither does gravity. The impossibility of shielding gravity reflects the impossibility of shielding the second law: there is no operation that prevents the bookkeeping from balancing. The second-law character of gravitational time dilation --- clocks running slower in regions of greater binding --- reflects that escrow density is itself a quantity that observers in different gravitational potentials disagree about in calculable ways. The area-law of black hole entropy reflects what happens when escrow becomes infinite and the books must be settled on the horizon itself rather than in the surrounding spacetime. None of these connections is mathematically novel; each has been observed by other authors in some form. What the present paper offers is the picture that makes them obviously connected rather than coincidentally so.
+
+Whether this picture turns out to be how the field eventually thinks about thermodynamic gravity, or whether it joins the longer list of conceptual frames that were elegant and not adopted, depends on questions we have not answered: the empirical pattern of cluster mass discrepancies, the derivation of the modified field equations from a covariant variational principle, the relation to quantum information bounds, and the broader question of whether interpretive contributions to mature subjects are received as illuminating or as redundant. We offer the framework with empirical commitments stated honestly and limitations identified explicitly. If the picture is right, gravity is the bookkeeping department of the second law. If it is wrong, it is wrong in well-defined ways that should produce productive failure modes for the next iteration.
+
+Acknowledgments
+
+The conceptual scaffolding of this paper was developed through extended voice-mediated dialogue with multiple large language models; that process, including its failure modes, is documented separately in a companion methodology note (Whitmer 2026b). Particular thanks are due to the corrective interventions in the cross-AI process that surfaced the Milgrom (2017) constraint, which substantially reshaped the empirical commitments of the present paper from earlier drafts.
+
+Code and data availability
+
+The Python analysis scripts used to produce the SPARC reanalysis of Section 8.4 and the interpolation comparison of Section 10 are deposited alongside this paper. The full SPARC mass-models table (Lelli, McGaugh & Schombert 2016) is publicly available from the SPARC project at http://astroweb.cwru.edu/SPARC/; we do not redistribute it. The subset used in the Section 10 interpolation comparison (approximately 200 radial points across 14 galaxies) is included with the deposited code and is sufficient to reproduce the numerical experiments reported in that section. Reproducibility instructions, dependency lists, and notes on expected output values relative to the paper\'s quoted numbers are provided in the deposited README.
+
+References
+
+Aguirre, A., Schaye, J., & Quataert, E. (2001). Problems for modified Newtonian dynamics in clusters and the Lyα forest? ApJ 561, 550.
+
+Angus, G. W., Famaey, B., & Buote, D. A. (2008). X-ray group and cluster mass profiles in MOND: unexplained mass on the group scale. MNRAS 387, 1470.
+
+Bekenstein, J. D. (1973). Black holes and entropy. Phys. Rev. D 7, 2333.
+
+Deser, S. & Levin, O. (1997). Accelerated detectors and temperature in (anti-) de Sitter spaces. Class. Quantum Grav. 14, L163. arXiv:gr-qc/9706018.
+
+Genzel, R., Förster Schreiber, N. M., Übler, H., et al. (2017). Strongly baryon-dominated disk galaxies at the peak of galaxy formation ten billion years ago. Nature 543, 397.
+
+Hawking, S. W. (1975). Particle creation by black holes. Comm. Math. Phys. 43, 199.
+
+Jacobson, T. (1995). Thermodynamics of spacetime: the Einstein equation of state. Phys. Rev. Lett. 75, 1260.
+
+Lelli, F., McGaugh, S. S. & Schombert, J. M. (2016). SPARC: Mass models for 175 disk galaxies with Spitzer photometry and accurate rotation curves. AJ 152, 157.
+
+Li, P., Lelli, F., McGaugh, S. S. & Schombert, J. M. (2018). Fitting the radial acceleration relation to individual SPARC galaxies. A&A 615, A3.
+
+McGaugh, S. S. (2012). The baryonic Tully-Fisher relation of gas-rich galaxies. AJ 143, 40.
+
+McGaugh, S. S., Lelli, F. & Schombert, J. M. (2016). The radial acceleration relation in rotationally supported galaxies. Phys. Rev. Lett. 117, 201101.
+
+Milgrom, M. (1983). A modification of the Newtonian dynamics. ApJ 270, 365.
+
+Milgrom, M. (1988). The rotation curve of DDO 154: A particularly acute test of the modified dynamics. ApJ 334, 130.
+
+Milgrom, M. (2017). High-redshift rotation curves and MOND. arXiv:1703.06110.
+
+Nestor Shachar, A., Price, S. H., Förster Schreiber, N. M., et al. (2023). RC100: Rotation curves of 100 massive star-forming galaxies at z = 0.6-2.5 reveal little dark matter on galactic scales. ApJ 944, 78.
+
+Padmanabhan, T. (2010). Thermodynamical aspects of gravity: new insights. Rep. Prog. Phys. 73, 046901. arXiv:0911.5004.
+
+Pointecouteau, E., & Silk, J. (2005). New constraints on modified Newtonian dynamics from galaxy clusters. MNRAS 364, 654.
+
+Sanders, R. H. (2003). Clusters of galaxies with modified Newtonian dynamics. MNRAS 342, 901.
+
+Unruh, W. G. (1976). Notes on black-hole evaporation. Phys. Rev. D 14, 870.
+
+van Putten, M. H. P. M. (2017). On the origin of inertia. ApJ 848, 28.
+
+van Putten, M. H. P. M. (2023). The fast and furious in JWST high-z galaxies. arXiv:2312.16692.
+
+Übler, H., Förster Schreiber, N. M., Genzel, R., et al. (2017). The evolution of the Tully-Fisher relation between z ∼ 2.3 and z ∼ 0.9 with KMOS. ApJ 842, 121.
+
+Verlinde, E. P. (2011). On the origin of gravity and the laws of Newton. JHEP 04, 029.
+
+Verlinde, E. P. (2017). Emergent gravity and the dark universe. SciPost Phys. 2, 016. arXiv:1611.02269.
