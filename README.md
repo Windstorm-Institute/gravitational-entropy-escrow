@@ -4,11 +4,11 @@
 
 Grant Lavell Whitmer III · Windstorm Labs, The Windstorm Institute · Fort Ann, NY, USA
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20031932-blue)](https://doi.org/10.5281/zenodo.20031932)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20032023-blue)](https://doi.org/10.5281/zenodo.20032023)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Track: Entropic Bounds](https://img.shields.io/badge/Track-2_·_Entropic_Bounds-8b5cf6)](https://windstorminstitute.org/#track2)
 
-**Zenodo**: [10.5281/zenodo.20031932](https://doi.org/10.5281/zenodo.20031932) · **Current version: v0.6.11** (May 2026)
+**Zenodo**: [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) · **Current version: v0.6.11** (May 2026)
 
 ---
 
@@ -59,7 +59,7 @@ Two numerical analyses are referenced in the paper:
 Reproducible scripts and raw outputs:
 **[Windstorm-Labs/gravitational-entropy-escrow](https://github.com/Windstorm-Labs/gravitational-entropy-escrow)**
 
-Current authoritative archive: **[Zenodo (10.5281/zenodo.20031932)](https://doi.org/10.5281/zenodo.20031932)**.
+Current authoritative archive: **[Zenodo (10.5281/zenodo.20032023)](https://doi.org/10.5281/zenodo.20032023)**.
 
 ---
 
@@ -84,7 +84,7 @@ Current authoritative archive: **[Zenodo (10.5281/zenodo.20031932)](https://doi.
 | # | Paper | DOI |
 |---|-------|-----|
 | 10 | [Phonon Extraction Bound (BEC Analog Gravity)](https://github.com/Windstorm-Institute/phonon-extraction-bound) | [10.5281/zenodo.20014391](https://doi.org/10.5281/zenodo.20014391) |
-| 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) *(this paper)* | [10.5281/zenodo.20031932](https://doi.org/10.5281/zenodo.20031932) |
+| 11 | [Gravitational Entropy Escrow](https://github.com/Windstorm-Institute/gravitational-entropy-escrow) *(this paper)* | [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) |
 
 **Website:** [windstorminstitute.org](https://windstorminstitute.org)
 
