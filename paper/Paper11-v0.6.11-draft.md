@@ -15,7 +15,7 @@ We propose a physical reframing under which gravity and entropy are revealed as 
 
 Two empirical observations about gravity are sufficiently familiar that physicists rarely pause on them, and sufficiently strange that they should not be left unexamined.
 
-First: a mass cannot escape the gravitational pull of another mass without expending entropy. The escape energy can in principle be packaged in any form --- kinetic, electromagnetic, mechanical --- but in every realized escape, the budget is paid by an entropy-increasing process external to the bound pair. A rocket vents hot exhaust. A binary system radiates gravitational waves. A photon climbs out of a potential well at the cost of redshift and the heating of its eventual absorber. The energy ledger closes by appeal to the energy ledger of the rest of the universe; the entropy ledger of the rest of the universe is what actually pays.
+First: a mass cannot escape the gravitational pull of another mass without expending entropy. The escape energy can in principle be packaged in any form --- kinetic, electromagnetic, mechanical --- but in every dissipative escape, the budget is paid by an entropy-increasing process external to the bound pair. A rocket vents hot exhaust. A photon climbs out of a potential well at the cost of redshift and the heating of its eventual absorber. Purely dynamical ejections — the three-body slingshot in the point-mass idealization — are Hamiltonian and radiate no reservoir; there the compensating entropy is the coarse-grained phase-space entropy of the unbound final state rather than radiated heat, and we take the escrow to be redeemed against that increase. The energy ledger closes by appeal to the energy ledger of the rest of the universe; the entropy ledger of the rest of the universe is what actually pays.
 
 Second: black holes are simultaneously the throne of entropy and the throne of gravity. The Bekenstein bound is saturated at the event horizon. The gravitational field is maximal at the event horizon. The two extrema coincide. If gravity and entropy were unrelated phenomena, this coincidence would be staggering. Standard physics has known since the 1970s that they are not unrelated --- black hole entropy is purely geometric, S = k_B A / 4ℓ_p² --- but the field has not converged on an interpretive framework that makes the coincidence feel inevitable rather than miraculous.
 
@@ -35,7 +35,7 @@ with T(r) = ℏa(r) / (2π c k_B), the Unruh temperature associated with the loc
 
 Three immediate corollaries follow:
 
-\(i\) Escape requires entropy expenditure because escape redeems escrow; the redemption must be paid by entropy production in some external reservoir, since the second law forbids spontaneous reduction of S_esc without compensation.
+\(i\) Escape requires entropy expenditure because escape redeems escrow; the redemption must be paid by a net entropy increase — produced in an external reservoir for dissipative escapes, or realized as the coarse-grained phase-space entropy of the unbound final state for purely dynamical escapes — since the second law forbids spontaneous uncompensated reduction of S_esc.
 
 \(ii\) The escrow is a property of the bound pair, not of either mass individually. This is consistent with the well-known fact that gravitational potential energy belongs to the system, not to the components. We elevate this to a principle: the escrow is relational, frame-independent as a scalar, but its gradient is frame-dependent.
 
