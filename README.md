@@ -32,7 +32,7 @@ The paper claims **no priority on individual derivations**. The mathematical mac
 ## Empirical anchors developed in the paper
 
 - **Five-case test on Genzel et al. (2017) high-z galaxies (§6.1).** Five `a_0` prescriptions × two interpolation functions, evaluated against the six high-redshift disk galaxies from Genzel. **Constant `a_0` cases pass at `|Δ| ≲ 0.05 dex`; both `H(z)`-tracking and `(1+z)^(3/2)`-tracking fail by margins of 0.10–0.18 dex.** The framework's structural commitment to `Λ` rather than `H(z)` is supported by this test.
-- **SPARC reanalysis (§8.4).** 175 disk galaxies; deep-MOND `a_0` derived globally and per-galaxy. **Global median: 1.24 × 10⁻¹⁰ m/s²**, agreeing with Milgrom's canonical 1.20 × 10⁻¹⁰ m/s² within ~4%. The framework's bare Λ-form prediction is `9.0 × 10⁻¹¹ m/s²` — about 25% below the empirical value, accounted for by an order-unity coefficient `α ≈ 1.39` whose derivation is identified as the central technical task remaining.
+- **SPARC reanalysis (§8.4).** 175 disk galaxies; deep-MOND `a_0` derived globally and per-galaxy. **Global median: 1.24 × 10⁻¹⁰ m/s²**, agreeing with Milgrom's canonical 1.20 × 10⁻¹⁰ m/s² within ~4%. The framework's bare Λ-form prediction is `9.0 × 10⁻¹¹ m/s²` — about 25% below the empirical value, accounted for by an order-unity coefficient `α ≈ 1.34` (or ≈ 0.21 against the raw, un-2π-suppressed de Sitter scale — see §8.4.3) whose derivation is identified as the central technical task remaining.
 - **Cross-redshift consistency (§8.5).** SPARC at z ≈ 0 and Genzel at z ≈ 0.85–2.4 are mutually consistent with a single time-independent `a_0` ∈ (1.08, 1.25) × 10⁻¹⁰ m/s². No statistically resolved evolution across ~11 Gyr.
 
 ## What the paper honestly does not claim
